@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Main {
     final static Scanner scanner = new Scanner(System.in); // Do not change this line
 
-//    public static void main(String[] args) {
-//        greet();
-//        remindName();
-//        areYouHuman();
-//        howAreYouDoing();
-//        guessMeal();
-//        end();
-//    }//main end
+    public static void main(String[] args) {
+        greet();
+        remindName();
+        areYouHuman();
+        howAreYouDoing();
+        guessMeal();
+        end();
+    }//main end
 
     static void greet() {
         System.out.println("Hello! My name is " + "EGChat" + ".");
@@ -92,6 +92,7 @@ public class Main {
 
                 if (num == 3) {
                     System.out.println("You have guessed right!");
+                    end();
                 } else if (num == 1 || num == 2){
                     System.out.println("Try again");
                 }
@@ -106,5 +107,5 @@ public class Main {
     {
         System.out.println("Have a nice day!");
         System.exit(0);
-    }
-}
+    }//end end :)
+}//class end
