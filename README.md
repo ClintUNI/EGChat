@@ -14,6 +14,10 @@ Structural Design Pattern:
   - MessageService - Clint E.
     - This service acts as a proxy-like cache, when creating new ConsoleMessages with this proxy it will first check a dictionary to see if that exact message already exists. If it does, it will return it else it will create and store a new one.
 
+- Decorator:
+  - TimestampMessage - Kristers G.
+    -  Adds a timestamp to the original message.
+
 
 Creation Design Pattern:
 
